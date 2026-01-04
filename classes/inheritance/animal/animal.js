@@ -7,6 +7,6 @@ export function Animal(name) {
 
 Animal.prototype.speak = function() {
 
-    console.log(`${this.name} make a sound`);
+    console.log(`${this.name} makes a sound`);
     
 }

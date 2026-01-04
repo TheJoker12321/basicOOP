@@ -1,9 +1,10 @@
 export function Shape() {
 
-    this.area = () => {
+}
 
-        return 0
 
-    }
+Shape.prototype.area = function() {
+
+    return 0
 
 }

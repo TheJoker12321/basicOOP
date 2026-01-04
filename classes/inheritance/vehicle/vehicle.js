@@ -4,7 +4,7 @@ export function Vehicle(type) {
 
 }
 
-Vehicle.prototype.describe = () => {
+Vehicle.prototype.describe = function() {
 
     console.log(`This is a ${this.type}`);
     

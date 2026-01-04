@@ -18,6 +18,7 @@ export class BankAccount {
         if (this.balance - amount >= 0) {
 
             this.balance -= amount
+            return 
 
         }
 
